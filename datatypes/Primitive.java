@@ -3,10 +3,10 @@ class Primitive{
     
         // popular primitive data types
 
-        int     age     = 12;
-        double  value   = 13.5;
-        char    initial = 'A';
-        boolean isNight = true;
+        int     age     = 12;       // whole number
+        double  value   = 13.5;     // decimal number
+        char    initial = 'A';      // single character
+        boolean isNight = true;     // true or false value
 
         System.out.println(age);
         System.out.println(value);
