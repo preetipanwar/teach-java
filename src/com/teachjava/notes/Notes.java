@@ -1,7 +1,6 @@
-package com.teachjava;
+package com.teachjava.notes;
 
-public class Main {
-
+public class Notes {
     public static void main(String[] args) {
 
         int[][] array = {{1,2},{3,4}};
