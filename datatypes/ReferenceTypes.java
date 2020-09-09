@@ -14,8 +14,11 @@ public class ReferenceTypes {
         // charAt(index) method is used to get a character out of a string
         char   firstNameInitial = firstName.charAt(0);
         char   lastNameInitial  = lastName.charAt(0); 
-        
+
         System.out.println(firstNameInitial);
         System.out.println(lastNameInitial);
+
+        // concatenation
+        System.out.println("The full name is " + firstName + " " + lastName);
     }
 }
