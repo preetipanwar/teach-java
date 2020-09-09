@@ -1,6 +1,6 @@
 package com.teachjava.bank;
 
-public class Practice {
+public class StaticKeyword {
 
     // static fields
     static double pi = 3.14;
@@ -25,9 +25,9 @@ public class Practice {
 
         // Class.properties
         // Class.method()
-        Practice.printPi();
-        Practice.printInterest();
-        Practice.printName();
+        StaticKeyword.printPi();
+        StaticKeyword.printInterest();
+        StaticKeyword.printName();
 
     }
 
