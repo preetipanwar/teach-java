@@ -6,6 +6,27 @@
   "configurations": [
     {
       "type": "java",
+      "name": "CodeLens (Launch) - GetACharacter",
+      "request": "launch",
+      "mainClass": "GetACharacter",
+      "projectName": "teach-java_6619e8bd"
+    },
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - Index",
+      "request": "launch",
+      "mainClass": "Index",
+      "projectName": "teach-java_6619e8bd"
+    },
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - ReferenceTypes",
+      "request": "launch",
+      "mainClass": "ReferenceTypes",
+      "projectName": "teach-java_6619e8bd"
+    },
+    {
+      "type": "java",
       "name": "Debug (Launch) - Current File",
       "request": "launch",
       "mainClass": "${file}"
