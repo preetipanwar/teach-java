@@ -1,4 +1,4 @@
-package com.teachjava.notes;
+package com.teachjava.topics;
 
 import java.util.Scanner;
 

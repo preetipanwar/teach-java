@@ -1,4 +1,4 @@
-package com.teachjava.notes;
+package com.teachjava.topics;
 
 public class ReferenceType {
     public static void main(String[] args) {

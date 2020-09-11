@@ -1,4 +1,4 @@
-package com.teachjava.notes;
+package com.teachjava.topics;
 
 // using object as parameter
 //method(parameter){

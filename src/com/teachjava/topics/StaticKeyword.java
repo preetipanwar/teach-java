@@ -1,4 +1,4 @@
-package com.teachjava.bank;
+package com.teachjava.topics;
 
 public class StaticKeyword {
 
@@ -25,9 +25,7 @@ public class StaticKeyword {
 
         // Class.properties
         // Class.method()
-        StaticKeyword.printPi();
-        StaticKeyword.printInterest();
-        StaticKeyword.printName();
+
 
     }
 
