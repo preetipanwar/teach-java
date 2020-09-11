@@ -1,8 +1,6 @@
-package com.teachjava.datatypes;
+package com.teachjava.notes;
 
-import java.util.Scanner;
-
-public class ReferenceTypes {
+public class ReferenceType {
     public static void main(String[] args) {
 
         // String is the most popular Reference type datatype
@@ -27,9 +25,9 @@ public class ReferenceTypes {
 
         // inputs through command line
         System.out.println("Enter your name: ");
-        Scanner input = new Scanner(System.in);
+        //Scanner input = new Scanner(System.in);
 
         // read input
-        System.out.println(input.nextLine());
+        //System.out.println(input.nextLine());
     }
 }

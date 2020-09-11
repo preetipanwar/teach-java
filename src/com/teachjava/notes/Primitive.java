@@ -1,4 +1,4 @@
-package com.teachjava.datatypes;
+package com.teachjava.notes;
 
 public class Primitive {
     public static void main(String[] args) {
