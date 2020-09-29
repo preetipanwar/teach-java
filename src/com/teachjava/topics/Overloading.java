@@ -23,17 +23,21 @@ public class Overloading {
 
     // method overloading
     int sum(int x, int y){
+
         return x + y;
     }
 
     int sum(int x, int y, int z){
+
         return x + y + z;
     }
 
     public static void main(String[] args) {
         Overloading obj1 = new Overloading();
 
-        System.out.println(obj1.sum(2,3));
+        //System.out.println(obj1.sum(2,3));
         System.out.println(obj1.sum(2,3, 7));
+        System.out.println(obj1.sum(3 ,5));
+        //obj1.sum(3,6,9)
     }
 }
