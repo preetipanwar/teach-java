@@ -1,7 +1,7 @@
-package unit3;
+package com.teachjava.unit3;
 
 //    A package in Java is used to group related classes.
-//    Think of it as a folder in a file directory.
+//    Think of it as a folder.
 //    We use packages to write a better maintainable code and avoid name conflicts,
 //    Packages are divided into two categories:
 //
@@ -18,12 +18,29 @@ package unit3;
     // To use a class of package from the library you need to use import keyword:
     // import package.name.Class                // imports a single Class
     import java.util.Scanner;
-    // import package.name.*                    // imports the whole package
-    import java.util.*;
+    import java.util.*;                    // imports the whole package
+
+    // 2. User-defined Packages (create your own packages)
+    import com.teachjava.miniprograms.Movie;
+    import com.teachjava.miniprograms.Account;
 
 public class Packages {
 
-    Scanner input = new Scanner(System.in);        // use Scanner
+//    Scanner input = new Scanner(System.in);        // use Scanner
     //Collection;     // java.util.*
 
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+
+        System.out.println("Enter your name: ");
+        String name = input.nextLine();
+        System.out.println("Your name is " + name);
+
+        System.out.println("Enter your age: ");
+        int age = input.nextInt();
+        System.out.println("Your age is " + age);
+
+        Movie dangal = new Movie("aamir", "nitesh");
+        dangal.printDetails();
+    }
 }

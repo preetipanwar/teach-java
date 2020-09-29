@@ -18,7 +18,7 @@ public class Account {
 
     int balance;
 
-    Account(int balance){
+    public Account(int balance){
         this.balance = balance;
     }
 
