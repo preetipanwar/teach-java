@@ -18,7 +18,7 @@ package com.teachjava.unit3;
     // To use a class of package from the library you need to use import keyword:
     // import package.name.Class                // imports a single Class
     import java.util.Scanner;
-    import java.util.*;                    // imports the whole package
+    import java.util.*;                         // imports the whole package
 
     // 2. User-defined Packages (create your own packages)
     import com.teachjava.miniprograms.Movie;
