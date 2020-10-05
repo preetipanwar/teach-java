@@ -7,24 +7,20 @@ public class PrimeNumber {
         int dividend = 6;
 
         while (divisor <= dividend){
-            System.out.println(divisor);
             int quotient = dividend / divisor;
             int remainder = dividend % divisor;
 
             // check if the dividend has factors
             if (remainder == 0 && quotient > 1){
                 // thus is not prime break the loop
-                System.out.println("dividend " + dividend + " is not a prime number");
+                System.out.println(dividend + " is not a prime number");
                 break;
             }
 
             if (divisor == dividend){
                 System.out.println(divisor + " is Prime");
             }
-            divisor++;              // check for the next
+            divisor++;              // check for the next divisor
         }
-
-        }
-
-
+    }
 }

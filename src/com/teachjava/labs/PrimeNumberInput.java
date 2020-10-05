@@ -27,11 +27,7 @@ public class PrimeNumberInput {
                 }
                 divisor++;              // check for the next
             }
-
         }
-        }
-
-
-
+    }
 }
 
