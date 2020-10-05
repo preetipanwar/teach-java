@@ -9,7 +9,8 @@ public class PrimeNumberInput {
         int searchLimit =  input.nextInt();
 
         for (int dividend = 2; dividend <= searchLimit; dividend++){
-            int divisor = 2;
+
+            int divisor = 2;        // initial value
 
             while (divisor <= dividend){
                 int quotient = dividend / divisor;

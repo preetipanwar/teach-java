@@ -4,7 +4,7 @@ import java.util.Scanner;
 public class PrimeNumber {
     public static void main(String[] args) {
 
-        int divisor = 2;
+        int divisor = 2;        // initial value
 
         Scanner input = new Scanner(System.in);
         System.out.println("Enter a number to see if its Prime:  ");
