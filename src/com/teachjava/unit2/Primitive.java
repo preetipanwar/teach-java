@@ -1,4 +1,4 @@
-package com.teachjava.topics;
+package com.teachjava.unit2;
 
 public class Primitive {
     public static void main(String[] args) {

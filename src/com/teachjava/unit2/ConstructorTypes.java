@@ -1,4 +1,4 @@
-package com.teachjava.topics;
+package com.teachjava.unit2;
 
 // Types of constructors
 public class ConstructorTypes {

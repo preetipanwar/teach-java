@@ -1,6 +1,6 @@
-package com.teachjava.topics;
+package com.teachjava.unit2;
 
-public class Fin {
+public class Finalise {
     // finalize class
     // finalize variable
     // finalize method
@@ -12,7 +12,7 @@ public class Fin {
     }
 
     public static void main(String[] args) {
-        Fin object = new Fin();
+        Finalise object = new Finalise();
 
         System.out.println(object.name);
     }

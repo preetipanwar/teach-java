@@ -1,4 +1,4 @@
-package com.teachjava.topics.inhpoly;
+package com.teachjava.unit2.inheripolymor;
 
 public class Dog extends Animal{
 
