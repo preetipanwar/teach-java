@@ -1,16 +1,16 @@
-## Syllabus - Java
+## Syllabus - Java Fundamentals 🎪
 
 ### Unit 2
 
-*Java Basics*
+*🥇 Java Basics*
 
 - Introduction, basic feature, JVM concepts
 - Primitive data types
 - Java operators
 - expressions, statements
-+ arrays
----
-*Object oriented concepts*
+- arrays
+
+*🥈 Object oriented concepts*
 
 + Class and Objects
 + creating objects
@@ -22,11 +22,11 @@
 + this keyword
 + using objects as parameters
 + argument passing
-- returning objects
++ returning objects
 + method overloading
 + garbage collection - read and teach me
----
-*Inheritance and Polymorphism*
+
+*🥉 Inheritance and Polymorphism*
 
 + Inheritance Basics
 + multilevel inheritance
@@ -36,25 +36,25 @@
 + Polymorphism
 + Final keyword
 
+---
 
-## Syllabus - Java
 ### Unit 3
 
-*Packages*
+*🥇 Packages*
 
 - Defining package
 - CLASSPATH
 - Package naming
 - Accessibility of Packages
 - using Package members
----
-*Interfaces*
+
+*🥈 Interfaces*
 
 - Implementing interfaces
 - Interface and Abstract Classes
 - Extends and Implements together
----
-*Exceptions Handling*
+
+*🥉 Exceptions Handling*
 
 - Exception
 - Handling of exceptions
@@ -64,3 +64,36 @@
 - Throwing exceptions
 - Writing exceptions
 - Subclasses
+
+---
+
+### Unit 4
+
+*🥇 Multithreading*
+
+- Introduction
+- The main thread
+- Java thread model
+- Thread priorities
+- Synchonization in Java
+- later thread communication
+
+*🥈 I/O in Java*
+
+- I/O Basics
+- Streams and Stream Classes
+- The predefined streams
+- Reading from, and
+- Writing to 
+- Console reading, and
+- Writing files
+- The transient and Volatile modifiers
+- Using instance of Native Methods
+
+*🥉 Strings and characters*
+
+- Fundamentals of Characters and Strings
+- the String Class
+- String Operations
+- Data Conversion using Value or Methods
+- String Buffer Class and Methods
