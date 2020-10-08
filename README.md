@@ -24,7 +24,7 @@
 + argument passing
 + returning objects
 + method overloading
-+ garbage collection - read and teach me
++ garbage collection
 
 *🥉 Inheritance and Polymorphism*
 
