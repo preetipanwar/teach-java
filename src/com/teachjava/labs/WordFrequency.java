@@ -42,3 +42,43 @@ public class WordFrequency {
         }
     }
 }
+
+ class Alternative {
+        // replacing for with for-each loop
+        // which is easier to read
+     public static void main(String[] args) {
+         String paragraph = "Nory was a Catholic because her mother was a Catholic " +
+                 "and Nory’s mother was a Catholic because her father was a Catholic " +
+                 "and her father was a Catholic because his mother was a Catholic or had been";
+
+         // convert paragraph to para (array), split the words with whitespace.
+         String[] para = paragraph.split(" ");
+
+         // make a dynamic array, which will keep track of printed words
+         ArrayList<String> printedWord = new ArrayList<String>();
+         printedWord.add("");
+
+         String word;        // initialize word variable
+         int count = 0;      // initialize counter
+
+         for (String x : para) {
+             word = x;
+             for (String y : para) {
+                 if (word.equals(y)) {
+                     count++;
+                 }
+             }
+             for (int j = 0; j < printedWord.size(); j++) {
+                 if (word.equals(printedWord.get(j))) {
+                     break;
+                 }
+                 // if the word is not found in array print it and add it to printedWord array
+                 if (j == printedWord.size() - 1) {
+                     System.out.println(word + ": " + count);
+                     printedWord.add(word);
+                 }
+             }
+             count = 0;              // reset count for the next word
+         }
+     }
+ }
