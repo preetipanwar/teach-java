@@ -31,7 +31,8 @@ public class PrimeNumber {
     }
 }
 
-// Actual lab program.
+//   2. Write a program that prompts a user for an integer, and
+//      then prints all the Prime numbers up to that integer
 class PrimeNumberInput {
     public static void main(String[] args) {
 

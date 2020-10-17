@@ -2,9 +2,12 @@ package com.teachjava.labs;
 
 import java.util.ArrayList;
 
+//  7. Write a program to make frequency count of words in a text.
+
 public class WordFrequency {
     public static void main(String[] args) {
-        String paragraph = "Nory was a Catholic because her mother was a Catholic " +
+        String paragraph =
+                "Nory was a Catholic because her mother was a Catholic " +
                 "and Nory’s mother was a Catholic because her father was a Catholic " +
                 "and her father was a Catholic because his mother was a Catholic or had been";
 
@@ -47,7 +50,8 @@ public class WordFrequency {
         // replacing for with for-each loop
         // which is easier to read
      public static void main(String[] args) {
-         String paragraph = "Nory was a Catholic because her mother was a Catholic " +
+         String paragraph =
+                 "Nory was a Catholic because her mother was a Catholic " +
                  "and Nory’s mother was a Catholic because her father was a Catholic " +
                  "and her father was a Catholic because his mother was a Catholic or had been";
 
