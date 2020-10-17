@@ -58,8 +58,7 @@ public class WordFrequency {
     }
 }
 // We went through all this hassle of creating a new function to add a word to an an array
-// by replacing it with new array because in Java arrays cannot be edited and it size once
-// initialized cannot be changed.
+// by replacing it with new array because in Java arrays cannot be resized.
 // A dynamic style of Array in java is called ArrayList<>, read more online about it, it allows
 // addition of new elements, modification in size and has many useful features.
 // Below I have used ArrayList<> to solve the same problem.

@@ -8,9 +8,28 @@ import java.util.Collections;
 
 public class SortNames {
     public static void main(String[] args) {
+        // The java string compareTo() method compares the given string with current string lexicographically.
+        // It returns positive number, negative number or 0. read more ..
+        // https://www.javatpoint.com/java-string-compareto
 
-        System.out.println("znkit".compareTo("Vibha"));
+        String[] names = {"basanta", "neil", "zayan", "kunnu", "yanna", "yashika", "wilmore", "anish"};
+        String temp;
 
+        for(int x = 0; x < names.length; x++){
+            for(int y = x + 1; y < names.length; y++){
+                int compare = names[x].compareTo(names[y]);         // compareTo returns integer value
+                if (compare > 0){
+                    temp = names[x];
+                    names[x] = names[y];
+                    names[y] = temp;
+                }
+            }
+        }
+
+        // print array
+        for(int x = 0; x < names.length; x++){
+            System.out.println(names[x]);
+        }
     }
 }
 
