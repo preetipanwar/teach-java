@@ -4,7 +4,7 @@ import java.util.Scanner;
 import java.util.StringTokenizer;
 
 public class IntegerSum {
-    // Write a program that reads a line of integers, and then displays each integers
+    // 4. Write a program that reads a line of integers, and then displays each integers
     // and then sum of all the integers.(using StringTokenizer class from java.util)
     public static void main(String[] args) {
 
