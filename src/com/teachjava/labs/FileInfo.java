@@ -14,8 +14,6 @@ public class FileInfo {
     // 5. length of file in bytes.
 
     public static void main(String[] args) {
-
-
         Scanner sc = new Scanner(System.in);
 
         System.out.println("Enter a file name: ");
@@ -37,7 +35,7 @@ public class FileInfo {
             System.out.println(file.getName() + " is a file");
         }else{
             System.out.println(input + " is not a file");
-            System.exit(1);                             // stop the program execution
+            System.exit(1);                       // stop the program execution
         }
 
         // check if file is readable
@@ -59,9 +57,5 @@ public class FileInfo {
         for (int x = pos + 1; x < splitName.length; x++ ){
             System.out.print(splitName[x]);             // print letters
         }
-
-
-
-
     }
 }
