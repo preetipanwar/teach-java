@@ -97,3 +97,16 @@
 - String Operations
 - Data Conversion using Value or Methods
 - String Buffer Class and Methods
+
+---
+
+### Lab Programs
+- 2 Write a program that prompts a user for an integer, and then prints all the Prime numbers up to that integer
+- 3 Write a program to multiply two given matrices.
+- 4 Write a program that reads a line of integers, and then displays each integers and then sum of all the integers (using StringTokenizer class from java.util)
+- 5 Write a program that checks weather a given String is a Palindrome or not.
+- 6 Write a program for sorting a given list of names in ascending order.
+- 7 Write a program to make frequency count of words in a text.
+- 8 Write a program that read a file name from the user, then displays the information about: whether the file exists, whether the file is readable, whether the file is writable, the type of file and the length of file in bytes.
+- 9 Write a program that reads a file and displays the file on screen with a line number before each line.
+- 10 Write a program that displays the number of characters, lines and words in a text file.
